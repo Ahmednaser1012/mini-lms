@@ -14,11 +14,20 @@ A modern Learning Management System built with Laravel 12 and Filament 4.0. This
 
 ## Requirements
 
-- PHP >= 8.2
+- **PHP**: 8.2 
 - Composer
 - Node.js >= 18.x and NPM
 - SQLite (default) or MySQL/PostgreSQL
 - Web server (Apache/Nginx) or PHP built-in server
+
+## Technologies Used
+
+- **Laravel**: 12.x - PHP web framework
+- **Filament**: 4.0 - Admin panel builder
+- **Livewire**: 3.x - Full-stack reactive components
+- **Alpine.js**: 3.x - Lightweight JavaScript framework for interactivity
+- **Tailwind CSS**: Utility-first CSS framework
+- **Vite**: Frontend build tool
 
 ## Installation
 
@@ -284,17 +293,7 @@ If you encounter permission issues with storage:
 php artisan storage:link
 chmod -R 775 storage bootstrap/cache
 ```
-
-### Database Connection Issues
-
-Ensure your database is properly configured in `.env` and the database exists:
-
-```bash
-# For SQLite
-touch database/database.sqlite
-
-# For MySQL/PostgreSQL, create the database first
-```
+ 
 
 ### Clear Cache
 
@@ -306,19 +305,4 @@ php artisan cache:clear
 php artisan view:clear
 php artisan route:clear
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Run tests and ensure code style compliance
-5. Submit a pull request
-
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Support
-
-For issues and questions, please open an issue on the repository.
+ 
