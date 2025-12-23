@@ -2,8 +2,8 @@
 
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
-use App\Livewire\CourseDetails;
-use App\Livewire\LessonPage;
+use App\Livewire\Components\CourseDetails;
+use App\Livewire\Components\LessonPage;
 
 Route::get('/', function () {
     return view('home');

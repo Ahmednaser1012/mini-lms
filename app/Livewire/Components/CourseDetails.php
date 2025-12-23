@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire;
+namespace App\Livewire\Components;
 
 use Livewire\Component;
 
@@ -15,7 +15,6 @@ class CourseDetails extends Component
 
     public function render()
     {
-        return view('livewire.course-details')->layout('components.layouts.main');
+        return view('livewire.components.course-details')->layout('components.layouts.main');
     }
 }
-

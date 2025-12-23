@@ -242,4 +242,3 @@ $curriculum = [
 
     <livewire:components.footer />
 </div>
-

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Livewire;
+namespace App\Livewire\Components;
 
 use Livewire\Component;
 
@@ -42,7 +42,7 @@ class LessonPage extends Component
          $sections = $this->getSections();
         $currentLesson = $this->getCurrentLesson();
 
-        return view('livewire.lesson-page', [
+        return view('livewire.components.lesson-page', [
             'sections' => $sections,
             'currentLesson' => $currentLesson,
         ])->layout('components.layouts.main');
